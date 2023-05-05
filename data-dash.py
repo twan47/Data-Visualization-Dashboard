@@ -9,3 +9,6 @@ from dash.dependencies import Input, Output
 
 #read dataset
 data = pd.read_csv("world-happiness-report-2021.csv")
+
+#check for missing value
+print(data.insull().sum())
