@@ -7,7 +7,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
-#read dataset
+#read dataset notes
 data = pd.read_csv("world-happiness-report-2021.csv")
 
 #check for missing value
