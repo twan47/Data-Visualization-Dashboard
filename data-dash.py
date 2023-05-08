@@ -11,7 +11,7 @@ from dash.dependencies import Input, Output
 data = pd.read_csv("world-happiness-report-2021.csv")
 
 #check for missing value
-print(data.insull().sum())
+print(data.isnull().sum())
 
 #generate descriptive statistics
 print(data.describe())
