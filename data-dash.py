@@ -7,6 +7,7 @@ from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
 
+# something wrong with end of code
 data = pd.read_csv("world-happiness-report-2021.csv")
 print(data.isnull().sum())
 print(data.describe())
